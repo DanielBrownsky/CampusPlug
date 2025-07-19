@@ -5,7 +5,7 @@ import { type Listing } from "../shared/ListingCard";
 import { ArrowLeft, Heart } from "lucide-react";
 import { useAuth } from "../components/AuthProvider";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import  "swiper/css";
 import { Autoplay, Pagination } from "swiper/modules";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";

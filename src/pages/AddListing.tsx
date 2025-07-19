@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import { useAuth } from "../components/AuthProvider";
 import { toast } from "react-hot-toast";
 
@@ -15,7 +15,6 @@ const defaultCampuses = [
 ];
 
 const AddListing = () => {
-  const navigate = useNavigate();
   const { user } = useAuth();
   const [searchParams] = useSearchParams();
 

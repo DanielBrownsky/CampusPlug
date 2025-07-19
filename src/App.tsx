@@ -8,8 +8,8 @@ import Premium from "./pages/Premium";
 import VerifyMe from "./pages/VerifyMe";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
-import Register from "./pages/Register";
-import NotFound from "./pages/NotFound";
+// import Register from "./pages/Register";
+// import NotFound from "./pages/NotFound";
 import LandingPage from "./pages/LandingPage";
 import ToggleTheme from "./ToggleTheme";
 import Explore from "./pages/Explore";
@@ -46,8 +46,8 @@ const App = () => {
         <Route path="/verify" element={<VerifyMe />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/edit/:id" element={<EditListing />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="*" element={<NotFound />} />
+        {/* <Route path="/register" element={<Register />} /> */}
+        {/* <Route path="*" element={<NotFound />} /> */}
         <Route path="/payment" element={<Payment />} />
       </Routes>
       <BottomNav />

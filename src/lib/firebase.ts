@@ -9,13 +9,13 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD8ja4hWnTbJTZvKmeF0EiOJwf-TYzFx3Y",
-  authDomain: "campusplug-9a29b.firebaseapp.com",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
   databaseURL: "https://campusplug-9a29b-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "campusplug-9a29b",
-  storageBucket: "campusplug-9a29b.firebasestorage.app",
-  messagingSenderId: "83104626320",
-  appId: "1:83104626320:web:496be84f31481c5f9e4a15"
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
