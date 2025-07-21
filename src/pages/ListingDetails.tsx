@@ -7,8 +7,8 @@ import { useAuth } from "../components/AuthProvider";
 import { Swiper, SwiperSlide } from "swiper/react";
 import  "swiper/css";
 import { Autoplay, Pagination } from "swiper/modules";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 import LoginPromptModal from "../components/LoginPromptModal";
 
 const ListingDetails = () => {
@@ -151,17 +151,17 @@ const ListingDetails = () => {
         </div>
 
         {/* Lightbox Preview */}
+        
         {lightboxOpen && (
           <Lightbox
-            mainSrc={images[photoIndex]}
-            nextSrc={images[(photoIndex + 1) % images.length]}
-            prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-            onCloseRequest={() => setLightboxOpen(false)}
-            onMovePrevRequest={() =>
-              setPhotoIndex((photoIndex + images.length - 1) % images.length)
-            }
-            onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % images.length)}
-            imageTitle={`${title} (${photoIndex + 1} of ${images.length})`}
+            open={lightboxOpen}
+            close={() => setLightboxOpen(false)}
+            index={photoIndex}
+            slides={images.map((src) => ({ src }))}
+            carousel={{ finite: true }}
+            on={{
+              view: ({ index }) => setPhotoIndex(index),
+            }}
           />
         )}
 

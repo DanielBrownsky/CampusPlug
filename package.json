@@ -20,9 +20,9 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
-    "react-image-lightbox": "^5.1.4",
     "swiper": "^11.2.10",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "yet-another-react-lightbox": "^3.24.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
