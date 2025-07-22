@@ -76,7 +76,7 @@ const DesktopNavbar = () => {
             Login
           </button>
           <button
-            onClick={() => navigate("/signup")}
+            onClick={() => navigate("/login")}
             className="text-blue-600 hover:underline"
           >
             Sign Up

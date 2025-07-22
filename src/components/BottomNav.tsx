@@ -31,7 +31,7 @@ const BottomNav = () => {
       authOnly: true,
     },
     {
-      to: user ? "/profile" : "/auth",
+      to: user ? "/profile" : "/login",
       icon: <User size={20} />,
       label: "Account",
     },
