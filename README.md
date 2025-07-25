@@ -30,11 +30,10 @@ Whether it’s phones, textbooks, food, fashion, or household items, CampusPlug 
 
 ##  UI Preview
 
-> Replace these image links with yours. First, upload screenshots using the method I’ll explain below 👇
 
-![home page](file:///C:/Users/USER/Pictures/Screenshots/Screenshot%202025-07-25%20115913.png)
-![Explore Listings](file:///C:/Users/USER/Pictures/Screenshots/explore.png)
-![Seller Dashboard]file:///C:/Users/USER/Pictures/Screenshots/Dashboard.png)
+![file:///C:/Users/USER/Pictures/Screenshots/Screenshot%202025-07-25%20115913.png](homepage.png)
+!file:///C:/Users/USER/Pictures/Screenshots/explore.png](Explore.png)
+![file:///C:/Users/USER/Pictures/Screenshots/Dashboard.png](seller dashboard)
 
 🔗 **Live Demo:** [https://campusplug.vercel.app](https://campus-plug.vercel.app)
 
