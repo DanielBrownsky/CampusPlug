@@ -28,12 +28,11 @@ Whether it’s phones, textbooks, food, fashion, or household items, CampusPlug 
 
 ---
 
-##  UI Preview
+## 📸 UI Preview
 
-
-![file:///C:/Users/USER/Pictures/Screenshots/Screenshot%202025-07-25%20115913.png](homepage.png)
-![file:///C:/Users/USER/Pictures/Screenshots/explore.png](explore.png)
-![file:///C:/Users/USER/Pictures/Screenshots/Dashboard.png](sellerdashboard.png)
+![Homepage](https://github.com/user-attachments/assets/4969aef9-d21e-4a6c-9452-993a0153cb44)
+![Explore Listings](https://github.com/user-attachments/assets/bb18dd19-ea1a-4c34-9e36-a18ee06dcf8b)
+![Seller Dashboard](https://github.com/user-attachments/assets/7edf108f-80ff-47b0-90de-56eabc6c9092)
 
 🔗 **Live Demo:** [https://campusplug.vercel.app](https://campus-plug.vercel.app)
 
