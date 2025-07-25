@@ -4,6 +4,8 @@
 Think Jiji, Facebook Marketplace, Depop or Jumia— but optimized for the campus lifestyle.  
 Whether it’s phones, textbooks, food, fashion, or household items, CampusPlug helps students connect, buy, and sell easily within their school.
 
+🔗 **Live Demo:** [https://campusplug.vercel.app](https://campus-plug.vercel.app)
+
 ---
 
 ##  Features
@@ -33,6 +35,8 @@ Whether it’s phones, textbooks, food, fashion, or household items, CampusPlug 
 ![home page](file:///C:/Users/USER/Pictures/Screenshots/Screenshot%202025-07-25%20115913.png)
 ![Explore Listings](file:///C:/Users/USER/Pictures/Screenshots/explore.png)
 ![Seller Dashboard]file:///C:/Users/USER/Pictures/Screenshots/Dashboard.png)
+
+🔗 **Live Demo:** [https://campusplug.vercel.app](https://campus-plug.vercel.app)
 
 ---
 
