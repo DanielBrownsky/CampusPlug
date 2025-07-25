@@ -32,8 +32,8 @@ Whether it’s phones, textbooks, food, fashion, or household items, CampusPlug 
 
 
 ![file:///C:/Users/USER/Pictures/Screenshots/Screenshot%202025-07-25%20115913.png](homepage.png)
-!file:///C:/Users/USER/Pictures/Screenshots/explore.png](Explore.png)
-![file:///C:/Users/USER/Pictures/Screenshots/Dashboard.png](seller dashboard)
+![file:///C:/Users/USER/Pictures/Screenshots/explore.png](explore.png)
+![file:///C:/Users/USER/Pictures/Screenshots/Dashboard.png](sellerdashboard.png)
 
 🔗 **Live Demo:** [https://campusplug.vercel.app](https://campus-plug.vercel.app)
 
