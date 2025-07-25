@@ -1,69 +1,83 @@
-# React + TypeScript + Vite
+#  CampusPlug
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CampusPlug** is a student-to-student online marketplace tailored for Nigerian university campuses.  
+Think Jiji, Facebook Marketplace, Depop or Jumia— but optimized for the campus lifestyle.  
+Whether it’s phones, textbooks, food, fashion, or household items, CampusPlug helps students connect, buy, and sell easily within their school.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- 🔍 Explore listings by campus and category
+- 🎯 Search for specific items across schools
+- 🧑‍💼 Seller dashboard with stats (views, WhatsApp clicks, etc.)
+- 💎 Premium Listings (30-day & 45-day auto-expiry)
+- 📦 Easy listing uploads with images and price
+- ⚡ Clean UI, fast performance, student-friendly
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+##  Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **React Vite + TypeScript**
+- **Tailwind CSS v4.1**
+- **React Router DOM**
+- **LocalStorage (for dev testing)**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+##  UI Preview
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+> Replace these image links with yours. First, upload screenshots using the method I’ll explain below 👇
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![home page](file:///C:/Users/USER/Pictures/Screenshots/Screenshot%202025-07-25%20115913.png)
+![Explore Listings](file:///C:/Users/USER/Pictures/Screenshots/explore.png)
+![Seller Dashboard]file:///C:/Users/USER/Pictures/Screenshots/Dashboard.png)
+
+---
+
+##  Folder Structure
+
+```bash
+src/
+├── components/
+├── pages/
+├── types/
+├── utils/
+├── shared/
+└── App.tsx
+
+##  Roadmap
+
+- [x] Explore Listings Page
+- [x] Seller Dashboard
+- [x] AddListung page
+- [x] EditListing Page
+- [x] Premium Page
+- [x] VerifyMe Page
+- [x]SellerPreofile Page
+- [ ] ListingDetails page
+- [ ] Login / SignUp page
+- [ ] Payment integration for Premium Access
+- [ ] Backend intergration
+
+
+## 🤝 Contributing
+
+Want to improve CampusPlug or suggest features? Pull requests and ideas are welcome!
+feel free to fork this repo, make changes, and submit a PR
+
+
+##  License
+
+MIT License — feel free to use, modify, and share responsibly.
+
+
+## 👨‍💻 Author
+
+**Daniel Ayeku**  
+[@danielayeku](https://github.com/DanielBrownsky)
+
+
+
+
